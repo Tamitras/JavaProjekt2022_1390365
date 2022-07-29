@@ -1,0 +1,33 @@
+{
+    // Verwendet IntelliSense zum Ermitteln möglicher Attribute.
+    // Zeigen Sie auf vorhandene Attribute, um die zugehörigen Beschreibungen anzuzeigen.
+    // Weitere Informationen finden Sie unter https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+
+    
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "Main",
+            // "projectName": "1390365_de4a66df",
+            "args": "--besucher=1,2021-05-15T14:16:00"
+            // "args": "--kontaktpersonen=1"
+        },
+        {
+            "type": "java",
+            "name": "Launch ProjektTester",
+            "request": "launch",
+            "mainClass": "ProjektTester",
+            "projectName": "1390365_de4a66df",
+            // "args": "--kontaktpersonen=1"
+        }
+    ]
+}
